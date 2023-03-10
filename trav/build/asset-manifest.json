@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bdbc2613.css",
+    "main.js": "/static/js/main.27338e28.js",
+    "static/media/aboit.jpg": "/static/media/aboit.8c3f4c03eb79e35dd333.jpg",
+    "static/media/un1.jpg": "/static/media/un1.b7705ff9909630e71b9e.jpg",
+    "static/media/reer.jpg": "/static/media/reer.cd598eac32f07d517be8.jpg",
+    "static/media/backgroundImg1.png": "/static/media/backgroundImg1.d7c84ddb411988635d99.png",
+    "static/media/onas.jpg": "/static/media/onas.44bad7def495687068cd.jpg",
+    "static/media/rep.jpeg": "/static/media/rep.dc32662c35c0ad764147.jpeg",
+    "static/media/lsettle.jpg": "/static/media/lsettle.697a71e5438abc2fc23b.jpg",
+    "static/media/limm.jpg": "/static/media/limm.788f7bf3c0663ca2bf40.jpg",
+    "static/media/benefits.png": "/static/media/benefits.59fc212b9bb7b48373b0.png",
+    "static/media/lstudy3.jpg": "/static/media/lstudy3.b14e7d2dcede127538a8.jpg",
+    "static/media/consultants_consultant.png": "/static/media/consultants_consultant.1474c1b94204cc9aeba1.png",
+    "static/media/image0.png": "/static/media/image0.b56aed4f684370befe9c.png",
+    "static/media/image1.png": "/static/media/image1.5bbf18079bf5df94daa7.png",
+    "static/media/image.png": "/static/media/image.35392d6fb61cb242966a.png",
+    "static/media/study3.jpg": "/static/media/study3.0c595ac46b651de7034b.jpg",
+    "static/media/capp.png": "/static/media/capp.767c0fa234af3228b7d5.png",
+    "static/media/imm.jpg": "/static/media/imm.57e4b7fd4ff4d5cb566f.jpg",
+    "static/media/settle.jpg": "/static/media/settle.2d5c5e227684a9e63cdc.jpg",
+    "static/media/staff2.png": "/static/media/staff2.1b82d5940061cf302be5.png",
+    "static/media/staff3.png": "/static/media/staff3.fe1bc886ce2334f33959.png",
+    "static/media/staff1.png": "/static/media/staff1.ebeacad17d239f43a9f7.png",
+    "static/media/staff4.jpg": "/static/media/staff4.86ce4a31dff30ae5549e.jpg",
+    "static/media/staff6.jpg": "/static/media/staff6.344df78d0bf862b4c2fe.jpg",
+    "static/media/GeneralRequirements.svg": "/static/media/GeneralRequirements.c7f87c66f9aa546e105b3ab0b8aee89a.svg",
+    "static/media/icon.svg": "/static/media/icon.08d1b538aa6332c95e534de341c40212.svg",
+    "static/media/Group.svg": "/static/media/Group.ea2545fa5c27785877cacc2751fcae71.svg",
+    "index.html": "/index.html",
+    "main.bdbc2613.css.map": "/static/css/main.bdbc2613.css.map",
+    "main.27338e28.js.map": "/static/js/main.27338e28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdbc2613.css",
+    "static/js/main.27338e28.js"
+  ]
+}
