@@ -6,7 +6,7 @@
     "nodemailer": "^6.7.3"
   },
 "scripts": {
-  "start": "node server.js",
+  "start": "npm install && node server.js",
   "build": "echo 'nothing to build'"
 }
 }
