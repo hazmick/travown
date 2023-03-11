@@ -120,7 +120,7 @@ const metafa = async (req, res, next) => {
 //routing endpoints
 app.post("/api/mail/meta", meta);
 //routing endpoints
-app.post("/api/mail/metafa", metafa); 
+app.post("/api/mail/metafa", metafa);
 
 app.use(express.static(path.join(__dirname, "trav/build")));
 
@@ -131,4 +131,4 @@ app.get("*", (req, res) => {
 app.use(cors());
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => console.log(`Server is running on PORT ${PORT}`));
+app.listen(PORT);
