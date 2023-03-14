@@ -6,6 +6,6 @@
     "nodemailer": "^6.7.3"
   },
   "scripts": {
-    "start": "react start"
+    "start": "node server.js"
   }
 }
