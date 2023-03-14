@@ -77,24 +77,15 @@ function Agent() {
         <div class="flex flex-col w-full lg:w-1/4 p-3">
           <div class="card ">
             <div class="flex justify-center">
-              <img src={staff4} class="w-full" />
+              <img src={staff1} class="w-full" />
             </div>
             <div class="px-3 py-4">
-              <div class="font-semibold">Marcel Hudges</div>
-              <div class="text-red-700 py-1">RCIC NUMBER: #R407903</div>
-              <div>Chief Operating Officer</div>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col w-full lg:w-1/4 p-3">
-          <div class="card ">
-            <div class="flex justify-center">
-              <img src={staff5} class="w-full" />
-            </div>
-            <div class="px-3 py-4">
-              <div class="font-semibold">Bernie Asphash</div>
-              <div class="text-red-700 py-1">RCIC NUMBER: #R708530</div>
-              <div>Principal Partner</div>
+              <div class="font-semibold">Williams Beverly</div>
+              <div class="text-red-700 py-1">RCIC NUMBER: #R423175</div>
+              <div class="text-sm p-2">Cheif Executive Officer</div>
+              <div class="text-sm p-2">ICCRC / RCIC Agent</div>
+              <div class="text-sm p-2">Over 16 years Experience</div>
+              <div class="text-sm p-2">Immigration Expert</div>
             </div>
           </div>
         </div>
@@ -107,19 +98,10 @@ function Agent() {
             <div class="px-3 py-4">
               <div class="font-semibold">Nathan Harrison</div>
               <div class="text-red-700 py-1">RCIC NUMBER: #R234330</div>
-              <div>Senior Immigration Officer</div>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col w-full lg:w-1/4 p-3">
-          <div class="card ">
-            <div class="flex justify-center">
-              <img src={staff1} class="w-full" />
-            </div>
-            <div class="px-3 py-4">
-              <div class="font-semibold">Williams Beverly</div>
-              <div class="text-red-700 py-1">RCIC NUMBER: #R423175</div>
-              <div>Senior Immigration Officer</div>
+              <div class="text-sm p-2">Senior Immigration Officer</div>
+              <div class="text-sm p-2">ICCRC / RCIC Agent</div>
+              <div class="text-sm p-2">Over 14 years Experience</div>
+              <div class="text-sm p-2">Immigration Expert</div>
             </div>
           </div>
         </div>
@@ -131,7 +113,10 @@ function Agent() {
             <div class="px-3 py-4">
               <div class="font-semibold">Anderson Williams</div>
               <div class="text-red-700 py-1">RCIC NUMBER: #R987275</div>
-              <div>Senior Immigration Officer</div>
+              <div class="text-sm p-2">Senior Immigration Officer</div>
+              <div class="text-sm p-2">ICCRC / RCIC Agent</div>
+              <div class="text-sm p-2">Over 11 years Experience</div>
+              <div class="text-sm p-2">Immigration Expert</div>
             </div>
           </div>
         </div>

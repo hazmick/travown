@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bdbc2613.css",
-    "main.js": "/static/js/main.27338e28.js",
+    "main.css": "/static/css/main.866aa2fa.css",
+    "main.js": "/static/js/main.6d5a3ccb.js",
     "static/media/aboit.jpg": "/static/media/aboit.8c3f4c03eb79e35dd333.jpg",
     "static/media/un1.jpg": "/static/media/un1.b7705ff9909630e71b9e.jpg",
     "static/media/reer.jpg": "/static/media/reer.cd598eac32f07d517be8.jpg",
@@ -10,12 +10,19 @@
     "static/media/rep.jpeg": "/static/media/rep.dc32662c35c0ad764147.jpeg",
     "static/media/lsettle.jpg": "/static/media/lsettle.697a71e5438abc2fc23b.jpg",
     "static/media/limm.jpg": "/static/media/limm.788f7bf3c0663ca2bf40.jpg",
+    "static/media/cert.jpg": "/static/media/cert.5fd5712382c4c8ec31f9.jpg",
     "static/media/benefits.png": "/static/media/benefits.59fc212b9bb7b48373b0.png",
     "static/media/lstudy3.jpg": "/static/media/lstudy3.b14e7d2dcede127538a8.jpg",
     "static/media/consultants_consultant.png": "/static/media/consultants_consultant.1474c1b94204cc9aeba1.png",
     "static/media/image0.png": "/static/media/image0.b56aed4f684370befe9c.png",
     "static/media/image1.png": "/static/media/image1.5bbf18079bf5df94daa7.png",
     "static/media/image.png": "/static/media/image.35392d6fb61cb242966a.png",
+    "static/media/business.png": "/static/media/business.830d0968b84f824e48dc.png",
+    "static/media/joboffer.png": "/static/media/joboffer.0b5a8d65b7a05a30bb22.png",
+    "static/media/work.png": "/static/media/work.30bdd7f4fbafc44e49ff.png",
+    "static/media/lbusiness.png": "/static/media/lbusiness.80944d0759d54398e06d.png",
+    "static/media/lwork.png": "/static/media/lwork.e9c35f0f6dd6504f2cc3.png",
+    "static/media/ljoboffer.png": "/static/media/ljoboffer.6ea981487bf75a8b8427.png",
     "static/media/study3.jpg": "/static/media/study3.0c595ac46b651de7034b.jpg",
     "static/media/capp.png": "/static/media/capp.767c0fa234af3228b7d5.png",
     "static/media/imm.jpg": "/static/media/imm.57e4b7fd4ff4d5cb566f.jpg",
@@ -29,11 +36,11 @@
     "static/media/icon.svg": "/static/media/icon.08d1b538aa6332c95e534de341c40212.svg",
     "static/media/Group.svg": "/static/media/Group.ea2545fa5c27785877cacc2751fcae71.svg",
     "index.html": "/index.html",
-    "main.bdbc2613.css.map": "/static/css/main.bdbc2613.css.map",
-    "main.27338e28.js.map": "/static/js/main.27338e28.js.map"
+    "main.866aa2fa.css.map": "/static/css/main.866aa2fa.css.map",
+    "main.6d5a3ccb.js.map": "/static/js/main.6d5a3ccb.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdbc2613.css",
-    "static/js/main.27338e28.js"
+    "static/css/main.866aa2fa.css",
+    "static/js/main.6d5a3ccb.js"
   ]
 }

@@ -41,11 +41,11 @@ export default function Navbar() {
       >
         <div class="hidden lg:block">Welcome To Canada Visa Pathway.</div>
         <div class="flex underline">
-          <a href="" class="">
-            Talk to Our Expert
-          </a>
-          <a href="" class="pl-4 hidden lg:block">
-            Schedule a meeting
+          <a
+            href="https://wa.me/14166197563"
+            class="pl-4 "
+          >
+            + 1 (416) 619 7563
           </a>
         </div>
       </div>
@@ -85,17 +85,57 @@ export default function Navbar() {
 
           <div class="hidden xl:flex flex-col xl:flex-row items-center overflow-hidden font-medium tracking-wide">
             <Link
-              to="/about"
-              class="px-5 py-5 xl:py-6 cursor-pointer  hover:text-red-700"
+              to="/home"
+              class="px-5 py-5 xl:py-6 cursor-pointer hover:text-red-700"
             >
-              About Us
+              Home
             </Link>
-            <Link
-              to="/agent-list"
-              class="px-5 py-5 xl:py-6 cursor-pointer  hover:text-red-700"
-            >
-              Agent List
-            </Link>
+            <div id="dropdown" class="px-5 w-full xl:w-auto">
+              <div
+                id="dropdown-btn"
+                class="relative py-5 xl:py-6 hover:text-red-700 cursor-pointer w-full xl:w-auto flex justify-center items-center"
+              >
+                About Us
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-5 h-5 pl-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </div>
+              <div
+                id="dropdown-cont"
+                style={{ zIndex: 999989 }}
+                class="hidden rounded flex-col py-3 text-black text-sm bg-white w-full overflow-hidden xl:w-52 absolute"
+              >
+                <Link
+                  class="py-3 px-3  hover:text-red-700 underline"
+                  to="/about"
+                >
+                  <span>About Us</span>
+                </Link>
+                <Link
+                  class="py-3 px-3  hover:text-red-700 underline"
+                  to="/agent-list"
+                >
+                  <span>Agent List</span>
+                </Link>
+                <Link
+                  class="py-3 px-3  hover:text-red-700 underline"
+                  to="/frequently-asked-questions"
+                >
+                  <span>FAQs</span>
+                </Link>
+              </div>
+            </div>
             <div id="dropdown" class="px-5 w-full xl:w-auto">
               <Link
                 to="/visa-services"
@@ -155,71 +195,12 @@ export default function Navbar() {
                 </Link>
               </div>
             </div>
-            <div id="dropdown" class="px-5 w-full xl:w-auto">
-              <Link
-                to="/immigration-services"
-                id="dropdown-btn"
-                class="relative flex  hover:text-red-700 cursor-pointer py-5 xl:py-6  justify-center items-center"
-              >
-                Immigration Services
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-5 h-5 font-bold pl-2"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </Link>
-              <div
-                id="dropdown-cont"
-                style={{ zIndex: 999989 }}
-                class="hidden rounded flex-col py-3 text-black text-sm bg-white w-full overflow-hidden xl:w-52 absolute"
-              >
-                <Link
-                  class="py-3 px-3  hover:text-red-700 underline"
-                  to="/immigration-services/express-entry-services"
-                >
-                  <span>Express Entry System</span>
-                </Link>
-                <Link
-                  class="py-3 px-3  hover:text-red-700 underline"
-                  to="/immigration-services/federal-skilled-worker-visa"
-                >
-                  <span>Federal Skilled Worker Visa</span>
-                </Link>
-                <Link
-                  class="py-3 px-3  hover:text-red-700 underline"
-                  to="/immigration-services/federal-skilled-trades-program"
-                >
-                  <span>Federal Skilled Trades Program</span>
-                </Link>
-                <Link
-                  class="py-3 px-3  hover:text-red-700 underline"
-                  to="/immigration-services/provincial-nomination-programs"
-                >
-                  <span>Provincial Nominees</span>
-                </Link>
-                <Link
-                  class="py-3 px-3  hover:text-red-700 underline"
-                  to="/immigration-services/quebec-selected-skilled-worker-qsw-program"
-                >
-                  <span>Quebec-Selected Skilled Worker Program</span>
-                </Link>
-              </div>
-            </div>
-            <Link
+            {/* <Link
               to="/frequently-asked-questions"
               class="px-5 py-5 xl:py-6 cursor-pointer hover:text-red-700"
             >
               Faq
-            </Link>
+            </Link> */}
           </div>
 
           <div class="hidden xl:flex flex-col xl:flex-row py-5 xl:py-6 items-center justify-between">
@@ -252,7 +233,7 @@ export default function Navbar() {
             <div onClick={showHide} class="block">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 text-red-600 w-6"
+                class="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -274,21 +255,59 @@ export default function Navbar() {
           >
             <Link
               onClick={showHide}
-              to="/about"
+              to="/"
               class="px-5 py-5 xl:py-6 cursor-pointer  hover:text-red-700"
             >
-              About Us
-            </Link>
-            <Link
-              onClick={showHide}
-              to="/agent-list"
-              class="px-5 py-5 xl:py-6 cursor-pointer  hover:text-red-700"
-            >
-              Agent List
+              Home
             </Link>
             <div id="dropdown" class="px-5 w-full xl:w-auto">
-              <Link
-                to="/visa-services"
+              <div
+                id="dropdown-btn"
+                class="relative flex  hover:text-red-700 cursor-pointer py-5 xl:py-6  justify-center items-center"
+              >
+                About Us
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-5 h-5 font-bold pl-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </div>
+              <div
+                id="dropdown-cont"
+                style={{ zIndex: 999989 }}
+                class="hidden rounded flex-col py-3 text-black text-sm bg-white w-52 left-28 overflow-hidden xl:w-52 absolute"
+              >
+                <Link
+                  class="py-3 px-3  hover:text-red-700 underline"
+                  to="/about"
+                >
+                  <span>About Us</span>
+                </Link>
+                <Link
+                  class="py-3 px-3  hover:text-red-700 underline"
+                  to="/agent-list"
+                >
+                  <span>Agent List</span>
+                </Link>
+                <Link
+                  class="py-3 px-3  hover:text-red-700 underline"
+                  to="/frequently-asked-questions"
+                >
+                  <span>FAQs</span>
+                </Link>
+              </div>
+            </div>
+            <div id="dropdown" class="px-5 w-full xl:w-auto">
+              <div
                 id="dropdown-btn"
                 class="relative py-5 xl:py-6 hover:text-red-700 cursor-pointer w-full xl:w-auto flex justify-center items-center"
               >
@@ -307,11 +326,11 @@ export default function Navbar() {
                     d="M19 9l-7 7-7-7"
                   />
                 </svg>
-              </Link>
+              </div>
               <div
                 id="dropdown-cont"
                 style={{ zIndex: 999989 }}
-                class="hidden rounded flex-col py-3 text-black text-sm bg-white w-full overflow-hidden xl:w-52 absolute"
+                class="hidden rounded flex-col py-3 text-black text-sm bg-white  w-52 left-28 overflow-hidden xl:w-52 absolute"
               >
                 <Link
                   class="py-3 px-3  hover:text-red-700 underline"
@@ -345,72 +364,6 @@ export default function Navbar() {
                 </Link>
               </div>
             </div>
-            <div id="dropdown" class="px-5 w-full xl:w-auto">
-              <Link
-                to="/immigration-services"
-                id="dropdown-btn"
-                class="relative flex  hover:text-red-700 cursor-pointer py-5 xl:py-6  justify-center items-center"
-              >
-                Immigration Services
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-5 h-5 font-bold pl-2"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </Link>
-              <div
-                id="dropdown-cont"
-                style={{ zIndex: 999989 }}
-                class="hidden rounded flex-col py-3 text-black text-sm bg-white w-full overflow-hidden xl:w-52 absolute"
-              >
-                <Link
-                  class="py-3 px-3  hover:text-red-700 underline"
-                  to="/immigration-services/express-entry-services"
-                >
-                  <span>Express Entry System</span>
-                </Link>
-                <Link
-                  class="py-3 px-3  hover:text-red-700 underline"
-                  to="/immigration-services/federal-skilled-worker-visa"
-                >
-                  <span>Federal Skilled Worker Visa</span>
-                </Link>
-                <Link
-                  class="py-3 px-3  hover:text-red-700 underline"
-                  to="/immigration-services/federal-skilled-trades-program"
-                >
-                  <span>Federal Skilled Trades Program</span>
-                </Link>
-                <Link
-                  class="py-3 px-3  hover:text-red-700 underline"
-                  to="/immigration-services/provincial-nomination-programs"
-                >
-                  <span>Provincial Nominees</span>
-                </Link>
-                <Link
-                  class="py-3 px-3  hover:text-red-700 underline"
-                  to="/immigration-services/quebec-selected-skilled-worker-qsw-program"
-                >
-                  <span>Quebec-Selected Skilled Worker Program</span>
-                </Link>
-              </div>
-            </div>
-            <Link
-              onClick={showHide}
-              to="/frequently-asked-questions"
-              class="px-5 py-5 xl:py-6 cursor-pointer  hover:text-red-700"
-            >
-              Faq
-            </Link>
             <div class="py-8">
               <Link
                 onClick={showHide}

@@ -12,34 +12,37 @@ function Work() {
   const [message, setmessage] = useState("");
   const [success, setsuccess] = useState("");
   const [error, seterror] = useState("");
-const showHide = () => {
-  let main = document.getElementById("smald").style.display;
+  const showHide = () => {
+    let main = document.getElementById("smald").style.display;
 
-  if (main == "none") {
-    document.getElementById("small-screen").style.background = "#303030";
-    document.getElementById("smald").style.display = "flex";
-    document.getElementById("small-screen").style.bottom = "0";
-  } else {
-    document.getElementById("small-screen").style.background = "transparent";
-    document.getElementById("smald").style.display = "none";
-    document.getElementById("small-screen").style.bottom = "auto";
+    if (main == "none") {
+      document.getElementById("small-screen").style.background = "#303030";
+      document.getElementById("smald").style.display = "flex";
+      document.getElementById("small-screen").style.bottom = "0";
+    } else {
+      document.getElementById("small-screen").style.background = "transparent";
+      document.getElementById("smald").style.display = "none";
+      document.getElementById("small-screen").style.bottom = "auto";
+    }
+  };
+
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 60 ||
+      document.documentElement.scrollTop > 60
+    ) {
+      document.getElementById("head-nav").style.boxShadow =
+        "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)";
+      document.getElementById("head-nav").style.background = "#303030";
+    } else {
+      document.getElementById("head-nav").style.boxShadow = "none";
+      document.getElementById("head-nav").style.background = "transparent";
+    }
   }
-};
-
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-    document.getElementById("head-nav").style.boxShadow =
-      "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)";
-    document.getElementById("head-nav").style.background = "#303030";
-  } else {
-    document.getElementById("head-nav").style.boxShadow = "none";
-    document.getElementById("head-nav").style.background = "transparent";
-  }
-}
   const submitHandler1 = async (e) => {
     e.preventDefault();
     const config = {
@@ -104,7 +107,7 @@ function scrollFunction() {
         </div>
       )}
       <div class="visad">
-         <Navbar />
+        <Navbar />
 
         <div class="lg:pb-28 lg:pt-80 pt-64 pb-16 max-w-4xl px-6 lg:px-20 flex flex-col m-auto justify-center items-center">
           <div class="font-semibold text-2xl lg:text-5xl bn">Work Visa</div>
@@ -545,7 +548,7 @@ function scrollFunction() {
                       />
                     </svg>
                   </div>
-                  <span class="pl-3">info@immigrationconsulate.ca</span>
+                  <span class="pl-3">info@canadavisapathway.ca</span>
                 </div>
                 <div class="pb-4 flex items-center">
                   <div>
@@ -561,7 +564,7 @@ function scrollFunction() {
                       />
                     </svg>
                   </div>
-                  <span class="pl-3">+1-647-946-5616</span>
+                  <span class="pl-3">+ 1 (416) 619 7563</span>
                 </div>
               </div>
             </div>
@@ -569,7 +572,7 @@ function scrollFunction() {
 
           <div id="footer-3" class="pt-5 lg:pt-10 pb-10">
             <div class="font-medium tracking-wider text-center text-sm">
-              <p>© 2012-2022 Canada Visa Pathway. All rights reserved.</p>
+              <p>© 2012-2023 Canada Visa Pathway. All rights reserved.</p>
             </div>
           </div>
         </div>

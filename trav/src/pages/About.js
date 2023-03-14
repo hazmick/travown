@@ -92,7 +92,7 @@ function About() {
               you are not familiar with the requirements.
             </div>
             <div class=" lg:py-3 py-2">
-              The mission of ImmigrationConsulate.ca is to make moving to Canada
+              The mission of canadavisapathway.ca is to make moving to Canada
               simple and affordable for you and your family with our 3-step
               procedure which involves:
             </div>
@@ -143,11 +143,11 @@ function About() {
           </div>
           <div class="py-3 font-light lg:font-normal leading-7 ">
             <div class=" py-3">
-              The objective of Immigrationconsulate.ca is to make your
-              immigration to Canada and the application process as simple as
-              possible by providing you with a professional assessment of your
-              visa options and a group of certified professionals to help you
-              through the visa application process.
+              The objective of canadavisapathway.ca is to make your immigration
+              to Canada and the application process as simple as possible by
+              providing you with a professional assessment of your visa options
+              and a group of certified professionals to help you through the
+              visa application process.
             </div>
             <div class=" py-3">
               Part of providing you with top quality service is giving you
@@ -220,7 +220,7 @@ function About() {
           </div>
           <div class="py-3 font-light lg:font-normal leading-7 ">
             <div class=" py-3">
-              Immigrationconsulate.ca has been the online presence of the Canada
+              canadavisapathway.ca has been the online presence of the Canada
               Visa Pathway. Canada Visa Pathway have several professionals who
               are dedicated to helping people move to Canada. We specialize in
               providing representation and advice to foreign nationals who are
@@ -234,9 +234,9 @@ function About() {
             </div>
             <div class=" py-3">
               All of the resources provided by Canada Visa Pathway
-              Immigrationconsulate.ca are meant to help as many people as
-              possible fulfill their Canadian immigration goals. Please reach
-              out to us so we can assist you.
+              canadavisapathway.ca are meant to help as many people as possible
+              fulfill their Canadian immigration goals. Please reach out to us
+              so we can assist you.
             </div>
           </div>
         </div>
@@ -388,7 +388,7 @@ function About() {
                       />
                     </svg>
                   </div>
-                  <span class="pl-3">info@immigrationconsulate.ca</span>
+                  <span class="pl-3">info@canadavisapathway.ca</span>
                 </div>
                 <div class="pb-4 flex items-center">
                   <div>
@@ -404,7 +404,7 @@ function About() {
                       />
                     </svg>
                   </div>
-                  <span class="pl-3">+1-647-946-5616</span>
+                  <span class="pl-3">+ 1 (416) 619 7563</span>
                 </div>
               </div>
             </div>
@@ -412,7 +412,7 @@ function About() {
 
           <div id="footer-3" class="pt-5 lg:pt-10 pb-10">
             <div class="font-medium tracking-wider text-center text-sm">
-              <p>© 2012-2022 Canada Visa Pathway. All rights reserved.</p>
+              <p>© 2012-2023 Canada Visa Pathway. All rights reserved.</p>
             </div>
           </div>
         </div>

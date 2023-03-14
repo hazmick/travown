@@ -157,7 +157,7 @@ function Faq() {
                 onClick={hideOrshow2}
                 class=" lg:text-lg bg-gray-200 flex justify-between tracking-wide p-3 font-bold"
               >
-                <h2>How can ImmigrationConsulateCanada.ca help me?</h2>
+                <h2>How can canadavisapathway.ca help me?</h2>
                 <button
                   id="but-plusa"
                   class="text-2xl outline-none focus:outline-none font-bold px-4"
@@ -179,16 +179,15 @@ function Faq() {
               >
                 <p class="py-2 px-4">
                   The authorized immigration consultants who work with
-                  ImmigrationConsulateCanada.ca can provide you with an
-                  eligibility assessment of your best option to apply for
-                  immigration to Canada and offers step-by-step guidance from a
-                  team of authorized immigration consultants we work with to
-                  help make the Canadian visa application process easier for you
-                  to complete. Your forms will be properly prepared and
-                  correctly submitted with the required documents to the
-                  Canadian immigration officials and the team of authorized
-                  immigration consultants will answer your questions along the
-                  way.
+                  canadavisapathway.ca can provide you with an eligibility
+                  assessment of your best option to apply for immigration to
+                  Canada and offers step-by-step guidance from a team of
+                  authorized immigration consultants we work with to help make
+                  the Canadian visa application process easier for you to
+                  complete. Your forms will be properly prepared and correctly
+                  submitted with the required documents to the Canadian
+                  immigration officials and the team of authorized immigration
+                  consultants will answer your questions along the way.
                 </p>
               </div>
             </div>
@@ -365,7 +364,7 @@ function Faq() {
                       />
                     </svg>
                   </div>
-                  <span class="pl-3">info@immigrationconsulate.ca</span>
+                  <span class="pl-3">info@canadavisapathway.ca</span>
                 </div>
                 <div class="pb-4 flex items-center">
                   <div>
@@ -381,7 +380,7 @@ function Faq() {
                       />
                     </svg>
                   </div>
-                  <span class="pl-3">+1-647-946-5616</span>
+                  <span class="pl-3">+ 1 (416) 619 7563</span>
                 </div>
               </div>
             </div>
@@ -389,7 +388,7 @@ function Faq() {
 
           <div id="footer-3" class="pt-5 lg:pt-10 pb-10">
             <div class="font-medium tracking-wider text-center text-sm">
-              <p>© 2012-2022 Canada Visa Pathway. All rights reserved.</p>
+              <p>© 2012-2023 Canada Visa Pathway. All rights reserved.</p>
             </div>
           </div>
         </div>

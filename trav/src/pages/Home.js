@@ -18,10 +18,16 @@ import settle from "../images/settle.jpg";
 import limm from "../images/limm.jpg";
 import lstudy from "../images/lstudy3.jpg";
 import lsettle from "../images/lsettle.jpg";
+import lwork from "../images/lwork.png";
+import work from "../images/work.png";
+import lbusiness from "../images/lbusiness.png";
+import business from "../images/business.png";
+import ljoboffer from "../images/ljoboffer.png";
+import joboffer from "../images/joboffer.png";
 import Navbar from "./navbar";
+import cert from "../images/cert.jpg";
 
 function Home() {
-
   function hideOrshow1() {
     var x = document.getElementById("faq-x");
     var butplus = document.getElementById("but-plus");
@@ -85,7 +91,6 @@ function Home() {
   return (
     <div>
       <div class="header">
-        
         <Navbar />
 
         <div class="lg:pb-28 pt-80 lg:pt-64 pb-16 max-w-3xl px-6 lg:px-20">
@@ -114,7 +119,7 @@ function Home() {
           </div>
         </div>
       </div>
-
+      {/* 
       <div class="flex flex-col lg:flex-row justify-center items-center py-8 lg:pt-32 lg:pb-16">
         <div class="lg:w-1/2 m-auto px-6 py-6 lg:pl-20 lg:pr-12">
           <img class="rounded-lg" src={about} />
@@ -139,7 +144,7 @@ function Home() {
               procedure.
             </div>
             <div class=" lg:py-3 py-2">
-              The mission of immigrationconsulate.ca is to make immigration to
+              The mission of canadavisapathway.ca is to make immigration to
               Canada simple and affordable for you and your family with our
               3-step procedure.
             </div>
@@ -149,14 +154,17 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
-      <div class="flex lg:px-20 px-6 py-8 lg:py-16 flex-col justify-center items-center text-center">
+      </div> */}
+      <div class="flex lg:px-20 px-6 pt-24 py-16 lg:pt-32 lg:pb-32 flex-col justify-center items-center text-center">
         <div class="lg:text-4xl text-xl text-red-700 font-bold lg:font-semibold">
-          We Make The Immigration Process Faster
+          Immigration - Choose the kind of Visa you want!
         </div>
         <div class="py-4 leading-7">
-          Find out what it takes to be eligible for Canadian immigration and
-          begin your clear path to Canada.
+          From the list below read more about the kind of visa you want, apply
+          now and begin your clear path to Canada. {"  "}
+          <Link class="text-red-600 underline" to="/visa-services">
+            Check Out More
+          </Link>
         </div>
         <div
           id="three cards container"
@@ -170,12 +178,16 @@ function Home() {
               <img class="lg:hidden block" src={limm} />
               <img class="hidden lg:block" src={imm} />
             </div>
-            <div class="py-4 text-lg font-semibold text-left opacity-90">
-              Immigrate to Canada
-            </div>
+            <Link
+              to="/visa-services/tourist-visa"
+              class="py-4 text-lg font-semibold text-left opacity-90 text-red-600 underline"
+            >
+              Tourist & Visitor Visa
+            </Link>
             <div class="text-left opacity-90 lg:font-normal font-light">
-              Make your goal of moving to Canada a reality by exploring over 100
-              available ways to immigrate.
+              A visitor visa (also called a temporary resident visa) is an
+              official document that we stick in your passport. It shows that
+              you meet the re...
             </div>
           </div>
           <div
@@ -186,12 +198,15 @@ function Home() {
               <img class="hidden lg:block" src={study} />
               <img class="lg:hidden block" src={lstudy} />
             </div>
-            <div class="py-4 text-lg font-semibold text-left opacity-90">
-              Study in Canada
-            </div>
+            <Link
+              to="/visa-services/student-visa"
+              class="py-4 text-lg font-semibold text-left opacity-90 text-red-600 underline"
+            >
+              Student Visa
+            </Link>
             <div class="text-left opacity-90 lg:font-normal font-light">
-              Canada has made it easier for international students to begin
-              their Canadian immigration journey.
+              To study in Canada, you'll need to obtain a Canadian Study Permit,
+              which serves as a Canadian Student Visa for the duration of y...
             </div>
           </div>
           <div
@@ -199,95 +214,91 @@ function Home() {
             class="flex rounded-2xl flex-col py-10 px-6 card lg:w-1/3"
           >
             <div>
-              <img class="hidden lg:block" src={settle} />
-              <img class="lg:hidden block" src={lsettle} />
+              <img class="hidden lg:block" src={lbusiness} />
+              <img class="lg:hidden block" src={business} />
             </div>
-            <div class="py-4 text-lg font-semibold text-left opacity-90">
-              Settle In Canada
-            </div>
+            <Link
+              to="/visa-services/business-visa"
+              class="py-4 text-lg font-semibold text-left opacity-90 text-red-600 underline"
+            >
+              Business Visa
+            </Link>
             <div class="text-left opacity-90 lg:font-normal font-light">
-              Our extensive settlement information and resources can help you
-              get settled into your new Canadian life.
+              If you want to visit Canada on business, you’ll need to understand
+              what a business visitor is, what you can do as a business visitor,
+              and w...
             </div>
           </div>
         </div>
-      </div>
-      <div class="flex flex-col lg:flex-row justify-center items-center px-6 lg:px-0 pt-16 pb-8 lg:pt-16 lg:pb-16">
-        <div class="lg:w-1/2 py-6 lg:py-0 lg:pl-20 lg:order-1 order-2">
-          <div class="text-red-700 font-semibold">
-            BENEFITS OF Canada Visa Pathway
-          </div>
-          <div class="lg:text-4xl text-xl font-bold leading-10 lg:py-3">
-            Why Choose
-          </div>
-          <div class="lg:text-4xl whitespace-nowrap text-lg text-red-700 font-bold">
-            Canada Visa Pathway
-          </div>
-          <div class="py-3 font-light lg:font-normal leading-7 ">
-            <div class=" py-3">
-              For almost a decade, Canada Visa Pathway has been working with
-              authorized immigration consultants to provide high quality
-              professional services to guide individuals and families from start
-              to finish on the pathway toward living and working in Canada as
-              permanent residents.
-            </div>
-            <div class=" py-3">
-              Canada Visa Pathway subcontracts authorized immigration
-              consultants in Toronto, Ontario, and in Montreal, Quebec, who have
-              assisted numerous individuals, from all over the world, to secure
-              both permanent and temporary residence visas for Canada.
-            </div>
-            <div class=" py-3">
-              The authorized immigration consultants who Immigration Consulate
-              Canada works with can review your details and evaluate your best
-              option for immigration to Canada.
-            </div>
-            <div class=" py-3">
-              Furthermore, the authorized immigration consultants who
-              collaborate with ImmigrationConsulateCanada.ca will work hard on
-              your behalf to make the process go as smoothly as possible. To
-              start your journey to Canada,{" "}
-              <span class="text-red-700">click here!</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="lg:w-1/2 mb-4 lg:mb-0 lg:pr-20 lg:pl-12 lg:order-2 order-1">
-          <img src={benefits} />
-        </div>
-      </div>
-      <div class="flex flex-col lg:flex-row justify-center items-center px-6 py-8 lg:px-20 lg:pt-16 lg:pb-16">
-        <div class="lg:w-2/4 rounded">
-          <img class="rounded-lg" src={un1} />
-        </div>
-        <div class="lg:w-2/4 pt-4 lg:pt-0 lg:pl-10">
-          <div class="text-red-700 font-semibold">PROFESSIONAL ADVISORS</div>
-          <div class="lg:text-3xl text-xl font-bold py-3">
-            Get guarantee success with our advisors
-          </div>
-          <div class="py-3 leading-7 font-light lg:font-normal">
-            <div class=" lg:py-3 py-2">
-              Are you looking for reliable immigration consultants to handle
-              your immigration case? Our certified and knowledgeable Immigration
-              advisors and professionals can help you get a positive decision on
-              your case!
-            </div>
-            <div class=" lg:py-3 py-2">
-              Read our reviews below! We strive to provide you with the best
-              client service experience in the industry.
-            </div>
-            <div class="flex py-3">
+        <div>
+          <div
+            id="three cards container"
+            class="flex flex-col lg:flex-row py-0 lg:py-0"
+          >
+            <div
+              id="first card"
+              class="flex rounded-2xl flex-col py-10 px-6 card lg:w-1/3"
+            >
+              <div>
+                <img class="lg:hidden block" src={work} />
+                <img class="hidden lg:block" src={lwork} />
+              </div>
               <Link
-                to=""
-                class="bg-transparent rounded-md px-10 py-3 outline-none border-2 border-red-700 hover:bg-black text-red-700 cursor-pointer"
+                to="/visa-services/work-visa"
+                class="py-4 text-lg font-semibold text-left opacity-90 text-red-600 underline"
               >
-                Learn More
+                Work Visa
               </Link>
+              <div class="text-left opacity-90 lg:font-normal font-light">
+                A work permit is always temporary in nature, but can often be
+                extended from inside Canada. Below is a guide on how you can
+                pursue a C...
+              </div>
+            </div>
+            <div
+              id="first card"
+              class="flex rounded-2xl flex-col py-10 px-6 card lg:w-1/3 my-6 lg:my-0 lg:mx-8"
+            >
+              <div>
+                <img class="hidden lg:block" src={ljoboffer} />
+                <img class="lg:hidden block" src={joboffer} />
+              </div>
+              <a
+                href="https://wa.me/14166197563"
+                class="py-4 text-lg font-semibold text-left opacity-90 text-red-600 underline" //wa.me/14166197563""
+              >
+                Get IELTS Result/ Job Offer Letter
+              </a>
+              <div class="text-left opacity-90 lg:font-normal font-light">
+                You can pay to get an IELTS result or a Job offer letter for
+                your external Application. Below is a guide on how you can
+                pursue a Canadian v...
+              </div>
+            </div>
+            <div
+              id="first card"
+              class="flex rounded-2xl flex-col py-10 px-6 card lg:w-1/3"
+            >
+              <div>
+                <img class="hidden lg:block" src={settle} />
+                <img class="lg:hidden block" src={lsettle} />
+              </div>
+              <a
+                href="https://wa.me/14166197563"
+                class="py-4 text-lg font-semibold text-left opacity-90 text-red-600 underline"
+              >
+                Permanent Residency Visa
+              </a>
+              <div class="text-left opacity-90 lg:font-normal font-light">
+                Permanent Residency gives you the option of staying in Canada
+                forever which makes you a citizen and able to get a Canada
+                Passport w...
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="flex flex-col justify-center items-center px-6 py-8 lg:px-20 lg:pt-16 lg:pb-16">
+      <div class="flex flex-col justify-center items-center px-6 py-8 lg:px-20 lg:pt-8 lg:pb-8">
         <div class="text-center">
           <div class="text-red-700 uppercase font-semibold">
             What they said ?
@@ -342,6 +353,94 @@ function Home() {
           </div>
         </div>
       </div>
+      {/* 
+      <div class="flex flex-col lg:flex-row justify-center items-center px-6 lg:px-0 pt-16 pb-8 lg:pt-16 lg:pb-16">
+        <div class="lg:w-1/2 py-6 lg:py-0 lg:pl-20 lg:order-1 order-2">
+          <div class="text-red-700 font-semibold">
+            BENEFITS OF Canada Visa Pathway
+          </div>
+          <div class="lg:text-4xl text-xl font-bold leading-10 lg:py-3">
+            Why Choose
+          </div>
+          <div class="lg:text-4xl whitespace-nowrap text-lg text-red-700 font-bold">
+            Canada Visa Pathway
+          </div>
+          <div class="py-3 font-light lg:font-normal leading-7 ">
+            <div class=" py-3">
+              For almost a decade, Canada Visa Pathway has been working with
+              authorized immigration consultants to provide high quality
+              professional services to guide individuals and families from start
+              to finish on the pathway toward living and working in Canada as
+              permanent residents.
+            </div>
+            <div class=" py-3">
+              Canada Visa Pathway subcontracts authorized immigration
+              consultants in Toronto, Ontario, and in Montreal, Quebec, who have
+              assisted numerous individuals, from all over the world, to secure
+              both permanent and temporary residence visas for Canada.
+            </div>
+            <div class=" py-3">
+              The authorized immigration consultants who Immigration Consulate
+              Canada works with can review your details and evaluate your best
+              option for immigration to Canada.
+            </div>
+            <div class=" py-3">
+              Furthermore, the authorized immigration consultants who
+              collaborate with canadavisapathway.ca will work hard on
+              your behalf to make the process go as smoothly as possible. To
+              start your journey to Canada,{" "}
+              <span class="text-red-700">click here!</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:w-1/2 mb-4 lg:mb-0 lg:pr-20 lg:pl-12 lg:order-2 order-1">
+          <img src={benefits} />
+        </div>
+      </div> 
+      */}
+
+      <div class="flex flex-col lg:flex-row justify-center items-center px-6 py-8 lg:px-20 lg:pt-16 lg:pb-16">
+        <div class="lg:w-2/4 rounded">
+          <img class="rounded-lg" src={un1} />
+        </div>
+        <div class="lg:w-2/4 pt-4 lg:pt-0 lg:pl-10">
+          <div class="text-red-700 font-semibold">PROFESSIONAL ADVISORS</div>
+          <div class="lg:text-3xl text-xl font-bold py-3">
+            Get guarantee success with our advisors
+          </div>
+          <div class="py-3 leading-7 font-light lg:font-normal">
+            <div class=" lg:py-3 py-2">
+              Are you looking for reliable immigration consultants to handle
+              your immigration case? Our certified and knowledgeable Immigration
+              advisors and professionals can help you get a positive decision on
+              your case!
+            </div>
+            <div class=" lg:py-3 py-2">
+              We strive to provide you with the best client service experience
+              in the industry.
+            </div>
+            <div class="flex py-3">
+              <a
+                href="https://wa.me/14166197563"
+                class="bg-transparent rounded-md px-10 py-3 outline-none border-2 border-red-700 hover:bg-black text-red-700 cursor-pointer"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col justify-center items-center px-6 py-8 lg:px-20 lg:pt-8 lg:pb-16">
+        <div class="text-center">
+          <div class="lg:text-3xl text-xl font-bold pt-3 pb-5">
+            Certification and Accreditation
+          </div>
+        </div>
+        <div>
+          <img class="lg:max-w-3xl w-auto pt-4 max-w-xs" src={cert} />
+        </div>
+      </div>
       <div class="loud pt-24 pb-20 px-6 flex flex-col justify-center items-center text-center">
         <div class="max-w-3xl w-full lg:text-4xl text-xl font-semibold lg:font-medium xz">
           Join Over 400,000 Immigrants Moving to Canada Each Year!
@@ -355,80 +454,6 @@ function Home() {
         >
           Apply Now
         </Link>
-      </div>
-      <div class="flex flex-col lg:flex-row justify-center items-center py-8 px-6 lg:pt-32 lg:pb-16">
-        <div class="lg:w-1/2 py-6 lg:py-0 lg:pl-20 lg:pr-12">
-          <img src={requirements} />
-        </div>
-        <div class="lg:w-1/2 lg:pr-20">
-          <div class="text-red-700 font-semibold">CANADIAN VISA CRITERIA</div>
-          <div class="lg:text-4xl text-xl font-bold lg:leading-10 py-3">
-            General Requirements
-          </div>
-          <div class="lg:py-3 py-2 lg:font-normal font-light leading-7 ">
-            <div class=" lg:py-3 py-2">
-              Each Canadian immigration program for skilled foreign workers and
-              their families has its own eligibility requirements and
-              application procedure; however, there are some general
-              requirements that they tend to share in common.
-            </div>
-            <div class=" lg:py-3 py-2">
-              In general, a skilled immigrant applying for immigration to
-              Canada:
-            </div>
-            <div class="lg:py-3 py-2">
-              <div>
-                <div class="flex lg:py-3 py-2 items-center">
-                  <img class="card2 rounded-full" src={cnada} />
-                  <span class="pl-6">must be at least 18 years of age;</span>
-                </div>
-                <div class="flex lg:py-3 py-2 items-center">
-                  <img class="card2 rounded-full" src={cnada} />
-                  <span class="pl-6">
-                    needs to possess adequate English or French language
-                    abilities;
-                  </span>
-                </div>
-                <div class="flex lg:py-3 py-2 items-center">
-                  <img class="card2 rounded-full" src={cnada} />
-                  <span class="pl-6">
-                    must have an occupation that qualifies for the particular
-                    Canadian visa program;
-                  </span>
-                </div>
-                <div class="flex lg:py-3 py-2 items-center">
-                  <img class="card2 rounded-full" src={cnada} />
-                  <span class="pl-6">
-                    normally requires post-secondary education or training for
-                    the eligible occupation;
-                  </span>
-                </div>
-                <div class="flex lg:py-3 py-2 items-center">
-                  <img class="card2 rounded-full" src={cnada} />
-                  <span class="pl-6">
-                    will need to have good character, along with all
-                    accompanying family members).
-                  </span>
-                </div>
-                <div class="flex lg:py-3 py-2 items-center">
-                  <img class="card2 rounded-full" src={cnada} />
-                  <span class="pl-6">
-                    must be in good health as well as all accompanying family
-                    members;
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class=" lg:py-3 py-2">
-              The authorized immigration consultants who work with Immigration
-              Consulate Canada can provide more details during the process.
-            </div>
-            <div class=" lg:py-3 py-2">
-              To find out if you qualify for immigration to Canada,{" "}
-              <span class="text-red-700">click here!</span>
-            </div>
-          </div>
-        </div>
       </div>
       <div class="flex flex-col lg:flex-row py-8 px-6 lg:pt-32 lg:pb-16 lg:px-20">
         <div class="lg:w-1/2">
@@ -489,7 +514,7 @@ function Home() {
                   onClick={hideOrshow2}
                   class=" lg:text-lg bg-gray-200 flex justify-between tracking-wide p-3 font-bold"
                 >
-                  <h2>How can ImmigrationConsulateCanada.ca help me?</h2>
+                  <h2>How can canadavisapathway.ca help me?</h2>
                   <button
                     id="but-plusa"
                     class="text-2xl outline-none focus:outline-none font-bold px-4"
@@ -511,16 +536,15 @@ function Home() {
                 >
                   <p class="py-2 px-4">
                     The authorized immigration consultants who work with
-                    ImmigrationConsulateCanada.ca can provide you with an
-                    eligibility assessment of your best option to apply for
-                    immigration to Canada and offers step-by-step guidance from
-                    a team of authorized immigration consultants we work with to
-                    help make the Canadian visa application process easier for
-                    you to complete. Your forms will be properly prepared and
-                    correctly submitted with the required documents to the
-                    Canadian immigration officials and the team of authorized
-                    immigration consultants will answer your questions along the
-                    way.
+                    canadavisapathway.ca can provide you with an eligibility
+                    assessment of your best option to apply for immigration to
+                    Canada and offers step-by-step guidance from a team of
+                    authorized immigration consultants we work with to help make
+                    the Canadian visa application process easier for you to
+                    complete. Your forms will be properly prepared and correctly
+                    submitted with the required documents to the Canadian
+                    immigration officials and the team of authorized immigration
+                    consultants will answer your questions along the way.
                   </p>
                 </div>
               </div>
@@ -612,6 +636,18 @@ function Home() {
                 >
                   Work Visa
                 </Link>
+                <a
+                  href="https://wa.me/14166197563"
+                  class="block hover:text-red-700 underline"
+                >
+                  Get IELTS Result/ Job Offer Letter
+                </a>
+                <a
+                  href="https://wa.me/14166197563"
+                  class="block hover:text-red-700 underline"
+                >
+                  Permanent Residency Visa
+                </a>
               </div>
             </div>
             <div class="flex flex-1 flex-col py-3 lg:py-0">
@@ -698,7 +734,7 @@ function Home() {
                       />
                     </svg>
                   </div>
-                  <span class="pl-3">info@immigrationconsulate.ca</span>
+                  <span class="pl-3">info@canadavisapathway.ca</span>
                 </div>
                 <div class="pb-4 flex items-center">
                   <div>
@@ -714,7 +750,7 @@ function Home() {
                       />
                     </svg>
                   </div>
-                  <span class="pl-3">+1-647-946-5616</span>
+                  <span class="pl-3">+ 1 (416) 619 7563</span>
                 </div>
               </div>
             </div>
@@ -722,7 +758,7 @@ function Home() {
 
           <div id="footer-3" class="pt-5 lg:pt-10 pb-10">
             <div class="font-medium tracking-wider text-center text-sm">
-              <p>© 2012-2022 Canada Visa Pathway. All rights reserved.</p>
+              <p>© 2012-2023 Canada Visa Pathway. All rights reserved.</p>
             </div>
           </div>
         </div>
