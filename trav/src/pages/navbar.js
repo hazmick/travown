@@ -158,7 +158,7 @@ export default function Navbar() {
               <div
                 id="dropdown-cont"
                 style={{ zIndex: 999989 }}
-                class="hidden rounded flex-col py-3 text-black text-sm bg-white w-full overflow-hidden xl:w-60 absolute"
+                class="hidden rounded flex-col py-3 text-black text-sm bg-white w-full overflow-hidden xl:w-64 absolute"
               >
                 <Link
                   class="py-3 px-3  hover:text-red-700 underline"
@@ -293,7 +293,7 @@ export default function Navbar() {
               <div
                 id="dropdown-cont"
                 style={{ zIndex: 999989 }}
-                class="hidden rounded flex-col py-3 text-black text-sm bg-white w-52 left-28 overflow-hidden xl:w-52 absolute"
+                class="hidden rounded flex-col py-3 text-black text-sm bg-white w-64 left-20 overflow-hidden xl:w-52 absolute"
               >
                 <Link
                   class="py-3 px-3  hover:text-red-700 underline"
@@ -339,7 +339,7 @@ export default function Navbar() {
               <div
                 id="dropdown-cont"
                 style={{ zIndex: 999989 }}
-                class="hidden rounded flex-col py-3 text-black text-sm bg-white  w-60 left-20 overflow-hidden xl:w-52 absolute"
+                class="hidden rounded flex-col py-3 text-black text-sm bg-white w-64 left-20 overflow-hidden xl:w-52 absolute"
               >
                 <Link
                   class="py-3 px-3  hover:text-red-700 underline"
