@@ -449,6 +449,18 @@ function Provincial() {
                 >
                   Work Visa
                 </Link>
+                <a
+                  href="https://wa.me/14166197563"
+                  class="block hover:text-red-700 underline"
+                >
+                  Get IELTS Result/ Job Offer Letter
+                </a>
+                <a
+                  href="https://wa.me/14166197563"
+                  class="block hover:text-red-700 underline"
+                >
+                  Permanent Residency Visa
+                </a>
               </div>
             </div>
             <div class="flex flex-1 flex-col py-3 lg:py-0">

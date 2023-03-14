@@ -41,10 +41,7 @@ export default function Navbar() {
       >
         <div class="hidden lg:block">Welcome To Canada Visa Pathway.</div>
         <div class="flex underline">
-          <a
-            href="https://wa.me/14166197563"
-            class="pl-4 "
-          >
+          <a href="https://wa.me/14166197563" class="pl-4 ">
             + 1 (416) 619 7563
           </a>
         </div>
@@ -193,6 +190,18 @@ export default function Navbar() {
                 >
                   <span>Work Visa</span>
                 </Link>
+                <a
+                  href="https://wa.me/14166197563"
+                  class="py-3 px-3  hover:text-red-700 underline"
+                >
+                  <span>Get IELTS Result / Job Offer Letter</span>
+                </a>
+                <a
+                  href="https://wa.me/14166197563"
+                  class="py-3 px-3  hover:text-red-700 underline"
+                >
+                  <span>Permanent Residency Visa</span>
+                </a>
               </div>
             </div>
             {/* <Link
@@ -362,6 +371,18 @@ export default function Navbar() {
                 >
                   <span>Work Visa</span>
                 </Link>
+                <a
+                  href="https://wa.me/14166197563"
+                  class="py-3 px-3  hover:text-red-700 underline"
+                >
+                  <span>Get IELTS Result / Job Offer Letter</span>
+                </a>
+                <a
+                  href="https://wa.me/14166197563"
+                  class="py-3 px-3  hover:text-red-700 underline"
+                >
+                  <span>Permanent Residency Visa</span>
+                </a>
               </div>
             </div>
             <div class="py-8">
