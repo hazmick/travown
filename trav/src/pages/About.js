@@ -92,7 +92,7 @@ function About() {
               you are not familiar with the requirements.
             </div>
             <div class=" lg:py-3 py-2">
-              The mission of canadavisapathway.ca is to make moving to Canada
+              The mission of canadavisapathway.cc is to make moving to Canada
               simple and affordable for you and your family with our 3-step
               procedure which involves:
             </div>
@@ -143,7 +143,7 @@ function About() {
           </div>
           <div class="py-3 font-light lg:font-normal leading-7 ">
             <div class=" py-3">
-              The objective of canadavisapathway.ca is to make your immigration
+              The objective of canadavisapathway.cc is to make your immigration
               to Canada and the application process as simple as possible by
               providing you with a professional assessment of your visa options
               and a group of certified professionals to help you through the
@@ -220,7 +220,7 @@ function About() {
           </div>
           <div class="py-3 font-light lg:font-normal leading-7 ">
             <div class=" py-3">
-              canadavisapathway.ca has been the online presence of the Canada
+              canadavisapathway.cc has been the online presence of the Canada
               Visa Pathway. Canada Visa Pathway have several professionals who
               are dedicated to helping people move to Canada. We specialize in
               providing representation and advice to foreign nationals who are
@@ -234,7 +234,7 @@ function About() {
             </div>
             <div class=" py-3">
               All of the resources provided by Canada Visa Pathway
-              canadavisapathway.ca are meant to help as many people as possible
+              canadavisapathway.cc are meant to help as many people as possible
               fulfill their Canadian immigration goals. Please reach out to us
               so we can assist you.
             </div>
@@ -400,7 +400,7 @@ function About() {
                       />
                     </svg>
                   </div>
-                  <span class="pl-3">info@canadavisapathway.ca</span>
+                  <span class="pl-3">info@canadavisapathway.cc</span>
                 </div>
                 <div class="pb-4 flex items-center">
                   <div>

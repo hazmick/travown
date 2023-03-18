@@ -120,6 +120,36 @@ function Agent() {
             </div>
           </div>
         </div>
+        <div class="flex flex-col w-full lg:w-1/4 p-3">
+          <div class="card ">
+            <div class="flex justify-center">
+              <img src={staff4} class="w-full" />
+            </div>
+            <div class="px-3 py-4">
+              <div class="font-semibold">Jeremy Lodge</div>
+              <div class="text-red-700 py-1">RCIC NUMBER: #R111275</div>
+              <div class="text-sm p-2">Legal Officer</div>
+              <div class="text-sm p-2">ICCRC / RCIC Agent</div>
+              <div class="text-sm p-2">Over 7 years Experience</div>
+              <div class="text-sm p-2">Immigration Expert</div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col w-full lg:w-1/4 p-3">
+          <div class="card ">
+            <div class="flex justify-center">
+              <img src={staff5} class="w-full" />
+            </div>
+            <div class="px-3 py-4">
+              <div class="font-semibold">Wendy Bidgeton</div>
+              <div class="text-red-700 py-1">RCIC NUMBER: #R712315</div>
+              <div class="text-sm p-2">Principal Officer</div>
+              <div class="text-sm p-2">ICCRC / RCIC Agent</div>
+              <div class="text-sm p-2">Over 5 years Experience</div>
+              <div class="text-sm p-2">Immigration Expert</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

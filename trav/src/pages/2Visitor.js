@@ -534,7 +534,7 @@ function Visitor() {
                       />
                     </svg>
                   </div>
-                  <span class="pl-3">info@canadavisapathway.ca</span>
+                  <span class="pl-3">info@canadavisapathway.cc</span>
                 </div>
                 <div class="pb-4 flex items-center">
                   <div>

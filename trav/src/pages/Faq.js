@@ -157,7 +157,7 @@ function Faq() {
                 onClick={hideOrshow2}
                 class=" lg:text-lg bg-gray-200 flex justify-between tracking-wide p-3 font-bold"
               >
-                <h2>How can canadavisapathway.ca help me?</h2>
+                <h2>How can canadavisapathway.cc help me?</h2>
                 <button
                   id="but-plusa"
                   class="text-2xl outline-none focus:outline-none font-bold px-4"
@@ -179,7 +179,7 @@ function Faq() {
               >
                 <p class="py-2 px-4">
                   The authorized immigration consultants who work with
-                  canadavisapathway.ca can provide you with an eligibility
+                  canadavisapathway.cc can provide you with an eligibility
                   assessment of your best option to apply for immigration to
                   Canada and offers step-by-step guidance from a team of
                   authorized immigration consultants we work with to help make
@@ -376,7 +376,7 @@ function Faq() {
                       />
                     </svg>
                   </div>
-                  <span class="pl-3">info@canadavisapathway.ca</span>
+                  <span class="pl-3">info@canadavisapathway.cc</span>
                 </div>
                 <div class="pb-4 flex items-center">
                   <div>

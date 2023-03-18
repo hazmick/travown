@@ -144,7 +144,7 @@ function Home() {
               procedure.
             </div>
             <div class=" lg:py-3 py-2">
-              The mission of canadavisapathway.ca is to make immigration to
+              The mission of canadavisapathway.cc is to make immigration to
               Canada simple and affordable for you and your family with our
               3-step procedure.
             </div>
@@ -386,7 +386,7 @@ function Home() {
             </div>
             <div class=" py-3">
               Furthermore, the authorized immigration consultants who
-              collaborate with canadavisapathway.ca will work hard on
+              collaborate with canadavisapathway.cc will work hard on
               your behalf to make the process go as smoothly as possible. To
               start your journey to Canada,{" "}
               <span class="text-red-700">click here!</span>
@@ -514,7 +514,7 @@ function Home() {
                   onClick={hideOrshow2}
                   class=" lg:text-lg bg-gray-200 flex justify-between tracking-wide p-3 font-bold"
                 >
-                  <h2>How can canadavisapathway.ca help me?</h2>
+                  <h2>How can canadavisapathway.cc help me?</h2>
                   <button
                     id="but-plusa"
                     class="text-2xl outline-none focus:outline-none font-bold px-4"
@@ -536,7 +536,7 @@ function Home() {
                 >
                   <p class="py-2 px-4">
                     The authorized immigration consultants who work with
-                    canadavisapathway.ca can provide you with an eligibility
+                    canadavisapathway.cc can provide you with an eligibility
                     assessment of your best option to apply for immigration to
                     Canada and offers step-by-step guidance from a team of
                     authorized immigration consultants we work with to help make
@@ -734,7 +734,7 @@ function Home() {
                       />
                     </svg>
                   </div>
-                  <span class="pl-3">info@canadavisapathway.ca</span>
+                  <span class="pl-3">info@canadavisapathway.cc</span>
                 </div>
                 <div class="pb-4 flex items-center">
                   <div>
