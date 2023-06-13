@@ -7,6 +7,8 @@ import staff2 from "../images/staff2.png";
 import staff3 from "../images/staff3.png";
 import staff4 from "../images/staff4.jpg";
 import staff5 from "../images/staff6.jpg";
+import staff6 from "../images/11.jpeg";
+import staff7 from "../images/12.jpeg";
 import Navbar from "./navbar";
 
 function Agent() {
@@ -81,7 +83,6 @@ function Agent() {
             </div>
             <div class="px-3 py-4">
               <div class="font-semibold">Williams Beverly</div>
-              <div class="text-red-700 py-1">RCIC NUMBER: #R423175</div>
               <div class="text-sm p-2">Cheif Executive Officer</div>
               <div class="text-sm p-2">ICCRC / RCIC Agent</div>
               <div class="text-sm p-2">Over 16 years Experience</div>
@@ -97,7 +98,6 @@ function Agent() {
             </div>
             <div class="px-3 py-4">
               <div class="font-semibold">Nathan Harrison</div>
-              <div class="text-red-700 py-1">RCIC NUMBER: #R234330</div>
               <div class="text-sm p-2">Senior Immigration Officer</div>
               <div class="text-sm p-2">ICCRC / RCIC Agent</div>
               <div class="text-sm p-2">Over 14 years Experience</div>
@@ -112,10 +112,37 @@ function Agent() {
             </div>
             <div class="px-3 py-4">
               <div class="font-semibold">Anderson Williams</div>
-              <div class="text-red-700 py-1">RCIC NUMBER: #R987275</div>
               <div class="text-sm p-2">Senior Immigration Officer</div>
               <div class="text-sm p-2">ICCRC / RCIC Agent</div>
               <div class="text-sm p-2">Over 11 years Experience</div>
+              <div class="text-sm p-2">Immigration Expert</div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col w-full lg:w-1/4 p-3">
+          <div class="card ">
+            <div class="flex justify-center">
+              <img src={staff7} class="w-full" />
+            </div>
+            <div class="px-3 py-4">
+              <div class="font-semibold">Stepen James</div>
+              <div class="text-sm p-2">Senior Immigration Officer</div>
+              <div class="text-sm p-2">ICCRC / RCIC Agent</div>
+              <div class="text-sm p-2">Over 7 years Experience</div>
+              <div class="text-sm p-2">Immigration Expert</div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col w-full lg:w-1/4 p-3">
+          <div class="card ">
+            <div class="flex justify-center">
+              <img src={staff6} class="w-full" />
+            </div>
+            <div class="px-3 py-4">
+              <div class="font-semibold">Wiliams Noah</div>
+              <div class="text-sm p-2">Senior Immigration Officer</div>
+              <div class="text-sm p-2">ICCRC / RCIC Agent</div>
+              <div class="text-sm p-2">Over 7 years Experience</div>
               <div class="text-sm p-2">Immigration Expert</div>
             </div>
           </div>
@@ -127,7 +154,6 @@ function Agent() {
             </div>
             <div class="px-3 py-4">
               <div class="font-semibold">Jeremy Lodge</div>
-              <div class="text-red-700 py-1">RCIC NUMBER: #R111275</div>
               <div class="text-sm p-2">Senior Immigration Officer</div>
               <div class="text-sm p-2">ICCRC / RCIC Agent</div>
               <div class="text-sm p-2">Over 7 years Experience</div>
@@ -142,7 +168,6 @@ function Agent() {
             </div>
             <div class="px-3 py-4">
               <div class="font-semibold">Wendy Bidgeton</div>
-              <div class="text-red-700 py-1">RCIC NUMBER: #R712315</div>
               <div class="text-sm p-2">Senior Immigration Officer</div>
               <div class="text-sm p-2">ICCRC / RCIC Agent</div>
               <div class="text-sm p-2">Over 5 years Experience</div>
