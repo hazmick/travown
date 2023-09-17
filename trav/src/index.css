@@ -133,6 +133,10 @@ code {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
   box-shadow: 6px 5px 30px 0px rgb(0 0 0 / 25%);
 }
 .card2 {
@@ -156,6 +160,12 @@ code {
   line-height: 40px !important;
 }
 
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 24px;
+}
+
 @media (max-width: 3000px) and (min-width: 780px) {
   .xz {
     line-height: 48px !important;
@@ -163,4 +173,26 @@ code {
   .bn {
     line-height: 72px !important;
   }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
 }
+
+@media (max-width: 3000px) and (min-width: 1024px) {
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }}
+
+  @media (max-width: 3000px) and (min-width: 1280px) {
+  
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }}

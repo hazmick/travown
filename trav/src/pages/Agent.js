@@ -9,6 +9,7 @@ import staff4 from "../images/staff4.jpg";
 import staff5 from "../images/staff6.jpg";
 import staff6 from "../images/11.jpeg";
 import staff7 from "../images/12.jpeg";
+import staffx1 from "../images/staffx1.jpeg";
 import Navbar from "./navbar";
 
 function Agent() {
@@ -75,11 +76,11 @@ function Agent() {
         </div>
       </div>
 
-      <div class="card-container flex w-full flex-wrap px-6 py-16 lg:px-20 lg:pt-32 lg:pb-16">
-        <div class="flex flex-col w-full lg:w-1/4 p-3">
+      <div class="card-container w-full px-6 py-16 lg:px-20 lg:pt-32 lg:pb-16">
+        
           <div class="card ">
-            <div class="flex justify-center">
-              <img src={staff1} class="w-full" />
+            <div class="inline-flex justify-start items-start w-full max-h-[315px] overflow-hidden">
+              <div className="block w-full"><img src={staff1} class="w-full h-full shrink-0" /></div>
             </div>
             <div class="px-3 py-4">
               <div class="font-semibold">Williams Beverly</div>
@@ -89,12 +90,12 @@ function Agent() {
               <div class="text-sm p-2">Immigration Expert</div>
             </div>
           </div>
-        </div>
+        
 
-        <div class="flex flex-col w-full lg:w-1/4 p-3">
+        
           <div class="card ">
-            <div class="flex justify-center">
-              <img src={staff2} class="w-full" />
+            <div class="inline-flex justify-start items-start w-full max-h-[315px] overflow-hidden">
+              <div className="block w-full"><img src={staff2} class="w-full h-full shrink-0" /></div>
             </div>
             <div class="px-3 py-4">
               <div class="font-semibold">Nathan Harrison</div>
@@ -104,11 +105,11 @@ function Agent() {
               <div class="text-sm p-2">Immigration Expert</div>
             </div>
           </div>
-        </div>
-        <div class="flex flex-col w-full lg:w-1/4 p-3">
+        
+        
           <div class="card ">
-            <div class="flex justify-center">
-              <img src={staff3} class="w-full" />
+            <div class="inline-flex justify-start items-start w-full max-h-[315px] overflow-hidden">
+              <div className="block w-full"><img src={staff3} class="w-full h-full shrink-0" /></div>
             </div>
             <div class="px-3 py-4">
               <div class="font-semibold">Anderson Williams</div>
@@ -118,11 +119,11 @@ function Agent() {
               <div class="text-sm p-2">Immigration Expert</div>
             </div>
           </div>
-        </div>
-        <div class="flex flex-col w-full lg:w-1/4 p-3">
+        
+        
           <div class="card ">
-            <div class="flex justify-center">
-              <img src={staff7} class="w-full" />
+            <div class="inline-flex justify-start items-start w-full max-h-[315px] overflow-hidden">
+              <div className="block w-full"><img src={staff7} class="w-full h-full shrink-0" /></div>
             </div>
             <div class="px-3 py-4">
               <div class="font-semibold">Stepen James</div>
@@ -132,11 +133,11 @@ function Agent() {
               <div class="text-sm p-2">Immigration Expert</div>
             </div>
           </div>
-        </div>
-        <div class="flex flex-col w-full lg:w-1/4 p-3">
+        
+        
           <div class="card ">
-            <div class="flex justify-center">
-              <img src={staff6} class="w-full" />
+            <div class="inline-flex justify-start items-start w-full max-h-[315px] overflow-hidden">
+              <div className="block w-full"><img src={staff6} class="w-full h-full shrink-0" /></div>
             </div>
             <div class="px-3 py-4">
               <div class="font-semibold">Wiliams Noah</div>
@@ -146,11 +147,11 @@ function Agent() {
               <div class="text-sm p-2">Immigration Expert</div>
             </div>
           </div>
-        </div>
-        <div class="flex flex-col w-full lg:w-1/4 p-3">
+        
+        
           <div class="card ">
-            <div class="flex justify-center">
-              <img src={staff4} class="w-full" />
+            <div class="inline-flex justify-start items-start w-full max-h-[315px] overflow-hidden">
+              <div className="block w-full"><img src={staff4} class="w-full h-full shrink-0" /></div>
             </div>
             <div class="px-3 py-4">
               <div class="font-semibold">Jeremy Lodge</div>
@@ -160,11 +161,11 @@ function Agent() {
               <div class="text-sm p-2">Immigration Expert</div>
             </div>
           </div>
-        </div>
-        <div class="flex flex-col w-full lg:w-1/4 p-3">
+        
+        
           <div class="card ">
-            <div class="flex justify-center">
-              <img src={staff5} class="w-full" />
+            <div class="inline-flex justify-start items-start w-full max-h-[315px] overflow-hidden">
+              <div className="block w-full"><img src={staff5} class="w-full h-full shrink-0" /></div>
             </div>
             <div class="px-3 py-4">
               <div class="font-semibold">Wendy Bidgeton</div>
@@ -174,7 +175,21 @@ function Agent() {
               <div class="text-sm p-2">Immigration Expert</div>
             </div>
           </div>
-        </div>
+        
+        
+          <div class="card ">
+            <div class="inline-flex justify-start items-start w-full max-h-[315px] overflow-hidden">
+              <div className="block w-full"><img src={staffx1} class="w-full h-full shrink-0" /></div>
+            </div>
+            <div class="px-3 py-4">
+              <div class="font-semibold">Christopher Hawtin</div>
+              <div class="text-sm p-2">Senior Immigration Officer</div>
+              <div class="text-sm p-2">ICCRC / RCIC Agent</div>
+              <div class="text-sm p-2">Over 9 years Experience</div>
+              <div class="text-sm p-2">Immigration Expert</div>
+            </div>
+          </div>
+        
       </div>
     </div>
   );
