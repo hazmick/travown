@@ -8,6 +8,7 @@ import staff3 from "../images/staff3.png";
 import staff4 from "../images/staff4.jpg";
 import staff5 from "../images/staff6.jpg";
 import staff6 from "../images/11.jpeg";
+import staff676 from "../images/staff676.JPG"
 import staff7 from "../images/12.jpeg";
 import staffx1 from "../images/staffx1.jpeg";
 import Navbar from "./navbar";
@@ -130,6 +131,19 @@ function Agent() {
               <div class="text-sm p-2">Senior Immigration Officer</div>
               <div class="text-sm p-2">ICCRC / RCIC Agent</div>
               <div class="text-sm p-2">Over 7 years Experience</div>
+              <div class="text-sm p-2">Immigration Expert</div>
+            </div>
+          </div>
+        
+         <div class="card ">
+            <div class="inline-flex justify-start items-start w-full max-h-[315px] overflow-hidden">
+              <div className="block w-full"><img src={staff676} class="w-full h-full shrink-0" /></div>
+            </div>
+            <div class="px-3 py-4">
+              <div class="font-semibold">Alexandre James</div>
+              <div class="text-sm p-2">Senior Immigration Officer</div>
+              <div class="text-sm p-2">ICCRC / RCIC Agent</div>
+              <div class="text-sm p-2">Over 10 years Experience</div>
               <div class="text-sm p-2">Immigration Expert</div>
             </div>
           </div>
